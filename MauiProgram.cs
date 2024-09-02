@@ -1,6 +1,4 @@
-﻿using CommunityToolkit.Maui;
-
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 
 namespace NetMauiDelRegning
 {
@@ -11,7 +9,6 @@ namespace NetMauiDelRegning
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
-                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
